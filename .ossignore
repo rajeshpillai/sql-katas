@@ -1,0 +1,21 @@
+# Paths to exclude from the OSS publish
+# (one path per line, relative to repo root)
+
+# Internal scripts
+scripts/publish-oss.sh
+
+# This file itself
+.ossignore
+
+# Claude AI config
+CLAUDE.md
+.claude
+
+# Editor / IDE
+.vscode
+.idea
+
+# Environment files
+.env
+.env.local
+.env.*.local
