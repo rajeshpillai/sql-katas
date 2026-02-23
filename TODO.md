@@ -91,10 +91,10 @@
 
 ## Kata Content — Phase 6: Advanced Filtering
 
-- [ ] EXISTS vs IN
-- [ ] Anti-joins
-- [ ] UNION, INTERSECT, EXCEPT
-- [ ] Deduplication strategies
+- [x] EXISTS vs IN
+- [x] Anti-joins
+- [x] UNION, INTERSECT, EXCEPT
+- [x] Deduplication strategies
 
 ## Kata Content — Phase 7: Window Functions
 
