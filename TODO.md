@@ -38,14 +38,15 @@
 - [x] Dataset reset button
 - [x] Markdown content renderer (code block placeholders, CSS classes, tables)
 - [x] Kata page with split layout (markdown left, SQL editor + results right)
+- [ ] Resizable and maximizable code panel on kata page
 
 ## Kata Content — Phase 0: Relational Thinking
 
 - [x] 0A — Tables & Structure (data types, schemas)
-- [ ] 0B — Keys & Constraints (PK, FK, UNIQUE, NOT NULL, CHECK)
-- [ ] 0C — Relationships (1:1, 1:N, M:N, junction tables, ER diagrams)
-- [ ] 0D — Normalization & Denormalization (1NF, 2NF, 3NF, tradeoffs)
-- [ ] 0E — NULL & Three-Valued Logic
+- [x] 0B — Keys & Constraints (PK, FK, UNIQUE, NOT NULL, CHECK)
+- [x] 0C — Relationships (1:1, 1:N, M:N, junction tables, ER diagrams)
+- [x] 0D — Normalization & Denormalization (1NF, 2NF, 3NF, tradeoffs)
+- [x] 0E — NULL & Three-Valued Logic
 
 ## Kata Content — Phase 1: Basic SELECT
 
