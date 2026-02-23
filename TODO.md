@@ -98,11 +98,11 @@
 
 ## Kata Content — Phase 7: Window Functions
 
-- [ ] OVER() clause
-- [ ] PARTITION BY
-- [ ] ROW_NUMBER, RANK, DENSE_RANK
-- [ ] LAG, LEAD
-- [ ] Window frames
+- [x] OVER() clause
+- [x] PARTITION BY
+- [x] ROW_NUMBER, RANK, DENSE_RANK
+- [x] LAG, LEAD
+- [x] Window frames
 
 ## Kata Content — Phase 8: Advanced Analytics
 
