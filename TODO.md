@@ -23,20 +23,25 @@
 - [x] POST `/api/explain` — return query execution plan (changed from GET — SQL in body)
 - [x] POST `/api/reset` — reset dataset to seed state
 - [x] Error responses with educational messages
+- [x] GET `/api/katas` — list all katas grouped by phase
+- [x] GET `/api/katas/:id` — get full kata with markdown content
+- [x] Kata content loader (auto-discovers `katas/phase-*/*.md` files)
 
 ## Frontend — Core UI
 
 - [x] Landing page with Katas and Applications (Coming Soon) cards
-- [ ] Kata browser / sidebar navigation (Phases 0–10)
+- [x] Kata browser / sidebar navigation (Phases 0–10)
 - [x] SQL query editor component (CodeMirror 6 + PostgreSQL dialect)
 - [x] Result table component (with row limit display, NULL styling, client-side pagination)
 - [ ] Execution plan viewer component
 - [x] Error display with educational context
 - [x] Dataset reset button
+- [x] Markdown content renderer (code block placeholders, CSS classes, tables)
+- [x] Kata page with split layout (markdown left, SQL editor + results right)
 
 ## Kata Content — Phase 0: Relational Thinking
 
-- [ ] 0A — Tables & Structure (data types, schemas)
+- [x] 0A — Tables & Structure (data types, schemas)
 - [ ] 0B — Keys & Constraints (PK, FK, UNIQUE, NOT NULL, CHECK)
 - [ ] 0C — Relationships (1:1, 1:N, M:N, junction tables, ER diagrams)
 - [ ] 0D — Normalization & Denormalization (1NF, 2NF, 3NF, tradeoffs)
