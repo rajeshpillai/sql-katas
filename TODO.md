@@ -2,37 +2,37 @@
 
 ## Infrastructure
 
-- [ ] Initialize backend project (Bun + Elysia)
-- [ ] Initialize frontend project (SolidJS + Tailwind CSS)
-- [ ] Set up Biome for linting/formatting
-- [ ] Set up PostgreSQL database and connection
-- [ ] Create read-only database role for learner queries
-- [ ] Implement query execution sandbox (timeouts, row limits, SELECT-only)
-- [ ] Set up seed script runner (`backend/seeds/`)
+- [x] Initialize backend project (Bun + Elysia)
+- [x] Initialize frontend project (SolidJS + Tailwind CSS)
+- [x] Set up Biome for linting/formatting
+- [x] Set up PostgreSQL database and connection (Docker Compose + flexible env vars)
+- [x] Create read-only database role for learner queries (in seed script)
+- [x] Implement query execution sandbox (timeouts, row limits, SELECT-only)
+- [x] Set up seed script runner (`backend/seeds/`)
 
 ## Sample Datasets
 
-- [ ] Design unified e-commerce schema (customers, orders, products, categories, employees, regions)
-- [ ] Write seed data with intentional NULLs, duplicates, and edge cases
-- [ ] Add time-series data for window function exercises
-- [ ] Implement dataset reset endpoint
+- [x] Design unified e-commerce schema (categories, products, tags, product_tags, customers, orders, order_items)
+- [x] Write seed data with intentional NULLs, duplicates, and edge cases
+- [x] Add time-series data for window function exercises (order dates spanning 2024–2025)
+- [x] Implement dataset reset endpoint (POST `/api/reset`)
 
 ## Backend API
 
-- [ ] POST `/api/query` — execute learner SQL (read-only, sandboxed)
-- [ ] GET `/api/explain` — return query execution plan
-- [ ] POST `/api/reset` — reset dataset to seed state
-- [ ] Error responses with educational messages
+- [x] POST `/api/query` — execute learner SQL (read-only, sandboxed)
+- [x] POST `/api/explain` — return query execution plan (changed from GET — SQL in body)
+- [x] POST `/api/reset` — reset dataset to seed state
+- [x] Error responses with educational messages
 
 ## Frontend — Core UI
 
-- [ ] Landing page with Katas and Applications (Coming Soon) cards
+- [x] Landing page with Katas and Applications (Coming Soon) cards
 - [ ] Kata browser / sidebar navigation (Phases 0–10)
-- [ ] SQL query editor component
-- [ ] Result table component (with row limit display)
+- [x] SQL query editor component (CodeMirror 6 + PostgreSQL dialect)
+- [x] Result table component (with row limit display, NULL styling)
 - [ ] Execution plan viewer component
-- [ ] Error display with educational context
-- [ ] Dataset reset button
+- [x] Error display with educational context
+- [x] Dataset reset button
 
 ## Kata Content — Phase 0: Relational Thinking
 

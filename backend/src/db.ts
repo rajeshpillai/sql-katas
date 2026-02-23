@@ -1,10 +1,15 @@
 import postgres from "postgres";
 
-const sql = postgres(process.env.DATABASE_URL || "postgres://localhost:5432/sql_katas");
+const DATABASE_URL =
+	process.env.DATABASE_URL || "postgres://postgres:postgres@localhost:5432/sql_katas";
 
-const learnerSql = postgres(process.env.DATABASE_URL || "postgres://localhost:5432/sql_katas", {
-	username: process.env.LEARNER_DB_USER || "sql_katas_learner",
-	password: process.env.LEARNER_DB_PASSWORD || "learner",
+const LEARNER_DATABASE_URL =
+	process.env.LEARNER_DATABASE_URL ||
+	`postgres://${process.env.LEARNER_DB_USER || "sql_katas_learner"}:${process.env.LEARNER_DB_PASSWORD || "learner"}@${process.env.DB_HOST || "localhost"}:${process.env.DB_PORT || "5432"}/${process.env.DB_NAME || "sql_katas"}`;
+
+const sql = postgres(DATABASE_URL);
+
+const learnerSql = postgres(LEARNER_DATABASE_URL, {
 	connection: {
 		statement_timeout: 5000,
 	},
