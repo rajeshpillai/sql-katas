@@ -83,11 +83,11 @@
 
 ## Kata Content — Phase 5: Subqueries & CTEs
 
-- [ ] Scalar subqueries
-- [ ] Correlated subqueries
-- [ ] WITH (CTEs)
-- [ ] Recursive CTEs (hierarchical data)
-- [ ] Subqueries vs CTEs vs derived tables
+- [x] Scalar subqueries
+- [x] Correlated subqueries
+- [x] WITH (CTEs)
+- [x] Recursive CTEs (hierarchical data)
+- [x] Subqueries vs CTEs vs derived tables
 
 ## Kata Content — Phase 6: Advanced Filtering
 
