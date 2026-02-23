@@ -50,10 +50,10 @@
 
 ## Kata Content — Phase 1: Basic SELECT
 
-- [ ] SELECT, FROM, WHERE
-- [ ] DISTINCT
-- [ ] ORDER BY
-- [ ] LIMIT / OFFSET
+- [x] SELECT, FROM, WHERE
+- [x] DISTINCT
+- [x] ORDER BY
+- [x] LIMIT / OFFSET
 
 ## Kata Content — Phase 2: Filtering & Conditions
 
