@@ -9,9 +9,9 @@
 		"seed": "bun src/seed-runner.ts"
 	},
 	"dependencies": {
-		"elysia": "^1.2.0",
-		"@elysiajs/cors": "^1.2.0",
-		"postgres": "^3.4.0"
+		"elysia": "^1.4.25",
+		"@elysiajs/cors": "^1.4.1",
+		"postgres": "^3.4.8"
 	},
 	"devDependencies": {
 		"@types/bun": "latest"
