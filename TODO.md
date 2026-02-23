@@ -74,12 +74,12 @@
 
 ## Kata Content — Phase 4: Joins & Relationships
 
-- [ ] INNER JOIN
-- [ ] LEFT JOIN
-- [ ] RIGHT JOIN
-- [ ] FULL JOIN
-- [ ] Join conditions vs filters
-- [ ] Join explosion and duplication
+- [x] INNER JOIN
+- [x] LEFT JOIN
+- [x] RIGHT JOIN
+- [x] FULL JOIN
+- [x] Join conditions vs filters
+- [x] Join explosion and duplication
 
 ## Kata Content — Phase 5: Subqueries & CTEs
 
