@@ -57,20 +57,20 @@
 
 ## Kata Content — Phase 2: Filtering & Conditions
 
-- [ ] Comparison operators, AND/OR/NOT
-- [ ] IN, BETWEEN, LIKE
-- [ ] NULL handling (IS NULL, COALESCE, NULLIF)
-- [ ] CASE expressions
-- [ ] Type casting
-- [ ] String functions
-- [ ] Date/time functions
+- [x] Comparison operators, AND/OR/NOT
+- [x] IN, BETWEEN, LIKE
+- [x] NULL handling (IS NULL, COALESCE, NULLIF)
+- [x] CASE expressions
+- [x] Type casting
+- [x] String functions
+- [x] Date/time functions
 
 ## Kata Content — Phase 3: Aggregation & GROUP BY
 
-- [ ] COUNT, SUM, AVG, MIN, MAX
-- [ ] GROUP BY
-- [ ] HAVING
-- [ ] Grouping vs filtering logic
+- [x] COUNT, SUM, AVG, MIN, MAX
+- [x] GROUP BY
+- [x] HAVING
+- [x] Grouping vs filtering logic
 
 ## Kata Content — Phase 4: Joins & Relationships
 
