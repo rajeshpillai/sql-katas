@@ -38,7 +38,7 @@
 - [x] Dataset reset button
 - [x] Markdown content renderer (code block placeholders, CSS classes, tables)
 - [x] Kata page with split layout (markdown left, SQL editor + results right)
-- [ ] Resizable and maximizable code panel on kata page
+- [x] Resizable and maximizable code panel on kata page
 
 ## Kata Content — Phase 0: Relational Thinking
 
